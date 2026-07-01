@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0214/v1
+canonical_location: https://kanripo.org/bkk/KR6v0214/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 張安世造像記
+  identifiers:
+    alt_id:
+    - I01n0015
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0015.xml
+    old_id: I01n0015
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0214_000.yaml, hash: 'sha256:7404ac4ed17bd2286ef55096aa33931d51ba622f589410432f8ede2f58ef4d18'}
+  - {seq: 1, filename: KR6v0214_001.yaml, hash: 'sha256:c88a81b379165c34fad880195b86af23db3635eb2f9ddb557c7be7135a361639'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0214_001.markers.yaml, hash: 'sha256:0f55c84feea4cbc0908f0cb133e45574b930f86d94ba3c8c8fc1743475b75150'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0214_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 258
+  label: 張安世造像記
+  type: juan
+  level: 1
+hash: sha256:9ae43fa3d47ac4d9b6dae3445b65eeff2af9c3b8664c2462400392258a4255e7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
