@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0214_000.yaml, hash: 'sha256:7404ac4ed17bd2286ef55096aa33931d51ba622f589410432f8ede2f58ef4d18'}
-  - {seq: 1, filename: KR6v0214_001.yaml, hash: 'sha256:c88a81b379165c34fad880195b86af23db3635eb2f9ddb557c7be7135a361639'}
+  - {seq: 1, filename: KR6v0214_001.yaml, hash: 'sha256:1321aedd6083c32eec0635176f637997826315749e883bb4664c293ce8adc36a'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0214_001.markers.yaml, hash: 'sha256:0f55c84feea4cbc0908f0cb133e45574b930f86d94ba3c8c8fc1743475b75150'}
+  - {seq: 0, role: markers, filename: assets/KR6v0214_000.markers.yaml, hash: 'sha256:d2afb8512698509be4109d5d35ae38eb467121b44404305346aa0d6bddae3e2b'}
+  - {seq: 1, role: markers, filename: assets/KR6v0214_001.markers.yaml, hash: 'sha256:f9c52bcc0f6512404deb24846fd0266e38c96b8b2318dde5819036972b6abc75'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 張安世造像記
   type: juan
   level: 1
-hash: sha256:9ae43fa3d47ac4d9b6dae3445b65eeff2af9c3b8664c2462400392258a4255e7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:26bd520bc6303d7cd257a157d456b9fcef13523f86d53523ab824b98f7066e28
